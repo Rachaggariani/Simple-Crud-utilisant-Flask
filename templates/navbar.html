@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{ url_for('list_users') }}"></a>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('list_users') }}">Liste des Utilisateurs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('add_user') }}">Ajouter un Utilisateur</a>
+            </li>
+        </ul>
+    </div>
+</nav>
